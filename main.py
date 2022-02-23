@@ -65,7 +65,7 @@ class PostResource(Resource):
         db.session.commit()
         return '', 204
 
-print("gfsgfshg")
+print("deeps")
 api.add_resource(PostListResource, '/posts')
 api.add_resource(PostResource, '/posts/<int:post_id>')
 
