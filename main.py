@@ -65,10 +65,9 @@ class PostResource(Resource):
         db.session.commit()
         return '', 204
 
-
+print("gfsgfshg")
 api.add_resource(PostListResource, '/posts')
 api.add_resource(PostResource, '/posts/<int:post_id>')
-
 
 if __name__ == '__main__':
     app.run(debug=True)
